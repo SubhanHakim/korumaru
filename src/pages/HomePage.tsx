@@ -12,8 +12,8 @@ function HomePage() {
             <HeroSection />
             <About />
             <Roadmap />
-            <Tokenomics/>
-            <Footer/>
+            <Tokenomics />
+            <Footer />
         </>
     )
 }
