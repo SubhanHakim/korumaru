@@ -23,8 +23,6 @@ function Footer() {
                             The cosmic cat born from chaos. Calm vibes, infinite memes, and a community that rides the storm together.
                         </p>
                     </div>
-
-                    {/* NAV LINKS */}
                     <nav className="flex flex-wrap justify-center md:justify-end gap-4 text-xs md:text-sm text-white/65">
                         <a href="#about" className="hover:text-white hover:underline underline-offset-4 transition-colors">
                             About
@@ -39,8 +37,6 @@ function Footer() {
                             Tokenomics
                         </a>
                     </nav>
-
-                    {/* SOCIAL */}
                     <div className="flex items-center justify-center gap-4">
                         <a
                             href="https://x.com/Korumaru_?s=20"
@@ -68,8 +64,6 @@ function Footer() {
                         </a>
                     </div>
                 </div>
-
-                {/* BOTTOM LINE */}
                 <div className="flex flex-col md:flex-row items-center justify-between gap-3 pt-4 border-t border-white/5 text-[11px] md:text-xs text-white/45">
                     <span>© {year} Korumaru. All rights reserved.</span>
                     <span className="text-[10px] md:text-xs">

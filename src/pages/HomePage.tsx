@@ -1,5 +1,5 @@
 import About from '@/components/partials/About'
-import Footer from '@/components/partials/footer'
+import Footer from '@/components/partials/Footer'
 import HeroSection from '@/components/partials/HeroSection'
 import Navbar from '@/components/partials/Navbar'
 import Roadmap from '@/components/partials/Roadmap'
