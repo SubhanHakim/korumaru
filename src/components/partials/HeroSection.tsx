@@ -104,7 +104,7 @@ function HeroSection() {
                     <FaTelegramPlane size={32} />
                 </a>
                 <a
-                    href="https://discord.gg/YOUR_DISCORD"
+                    href="https://x.com/Korumaru_?s=20"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="transition-all ease duration-300 hover:text-[#5b82ff] hover:scale-110 hover:drop-shadow-[0 0 12px rgba(91, 130, 255, 0.8)]"

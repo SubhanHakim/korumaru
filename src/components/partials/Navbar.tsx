@@ -7,8 +7,7 @@ const items = [
         bgColor: "#0D0716",
         textColor: "#fff",
         links: [
-            { label: "Company", ariaLabel: "About Company", href: "/company" },
-            { label: "Careers", ariaLabel: "About Careers", href: "/careers" }
+            { label: "About Korumaru", ariaLabel: "About Company", href: "#about" },
         ]
     },
     {
@@ -16,8 +15,7 @@ const items = [
         bgColor: "#170D27",
         textColor: "#fff",
         links: [
-            { label: "Featured", ariaLabel: "Featured Projects", href: "/projects/featured" },
-            { label: "Case Studies", ariaLabel: "Project Case Studies", href: "/projects/case-studies" }
+            { label: "Pump.fun", ariaLabel: "Featured Projects", href: "#" },
         ]
     },
     {
@@ -25,14 +23,12 @@ const items = [
         bgColor: "#271E37",
         textColor: "#fff",
         links: [
-            { label: "Roadmap", ariaLabel: "Email us", href: "mailto:hello@example.com" },
-            { label: "Tokenomics", ariaLabel: "Twitter", href: "https://twitter.com/your" },
-            { label: "Twitter", ariaLabel: "LinkedIn", href: "https://linkedin.com/in/your" }
+            { label: "Roadmap", ariaLabel: "Email us", href: "#roadmap" },
+            { label: "Tokenomics", ariaLabel: "Twitter", href: "#tokenomics" },
+            { label: "Twitter", ariaLabel: "LinkedIn", href: "https://x.com/Korumaru_?s=20" }
         ]
     }
 ];
-
-
 
 
 function Navbar() {
