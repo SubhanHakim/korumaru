@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap");
+
+@theme {
+  --font-hero: "Rubik Glitch", system-ui;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  /* contoh gradient — sesuaikan warna/arah */
+  background: radial-gradient(circle at center, #1a2b57, #0b1630, #05070e);
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+}
