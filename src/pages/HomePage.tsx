@@ -1,3 +1,4 @@
+import CircularGallery from '@/components/CircularGallery'
 import About from '@/components/partials/About'
 import Footer from '@/components/partials/Footer'
 import HeroSection from '@/components/partials/HeroSection'
@@ -13,6 +14,9 @@ function HomePage() {
             <About />
             <Roadmap />
             <Tokenomics />
+            <div style={{ height: '600px', position: 'relative' }}>
+                <CircularGallery bend={3} textColor="#ffffff" borderRadius={0.05} scrollEase={0.02} />
+            </div>
             <Footer />
         </>
     )
