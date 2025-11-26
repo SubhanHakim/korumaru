@@ -24,21 +24,14 @@ function About() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 items-center w-full max-w-6xl">
                 <div className="w-full max-w-md mx-auto">
-                    {/* <div className="w-full aspect-4/5 rounded-2xl overflow-hidden border border-white/10 bg-white/5">
-                        <img
-                            src={AboutImage}
-                            alt="About Korumaru"
-                            className="w-full h-full object-cover"
-                        />
-                    </div> */}
                     <TiltedCard
                         imageSrc={AboutImage}
                         altText="About Korumaru"
                         captionText="About Korumaru"
                         containerHeight="340px"
-                        containerWidth="450px"
+                        containerWidth="350px"
                         imageHeight="340px"
-                        imageWidth="450px"
+                        imageWidth="350px"
                         rotateAmplitude={12}
                         scaleOnHover={1.2}
                         showMobileWarning={false}
